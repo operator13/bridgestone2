@@ -23,7 +23,7 @@ def get_tire_counts(driver, diameter_url):
                 soup = BeautifulSoup(driver.page_source, 'html.parser')
                 count_section = soup.find('div', class_='tsr-profile__results')
                 count_text = count_section.text.split() if count_section else []
-                count = 0 if not count_text else int(count_text[0])
+                count = 0 if not count_text else int(count_text[0])  # Edge case: there could be cases where specific tire size does not have any tire
                 tire_counts.append((tire_size, count, tire_size_url))
             except Exception as e:
                 print(f"Failed to process tire size link: {link['href']}. Error: {e}")
@@ -38,7 +38,7 @@ def main():
     chrome_options.add_argument("--headless")
 
     # Specify the Chrome driver path
-    driver_service = Service('/usr/local/bin/chromedriver')  # replace with your path
+    driver_service = Service('/usr/local/bin/chromedriver')
     driver = webdriver.Chrome(service=driver_service, options=chrome_options)
 
     # Define initial URL
