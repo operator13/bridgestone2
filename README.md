@@ -1,32 +1,45 @@
-**Bridgestone Tire Scraper**
-This Python script is used to scrape tire count data from the Bridgestone website. The script uses Selenium WebDriver with Google Chrome in headless mode and BeautifulSoup to parse the HTML.
+# Web Scraping Bridgestone Tire Sizes
 
-**How it Works**
-The script iterates through a predefined list of tire diameters and navigates to each respective page on the Bridgestone website. On each diameter page, it finds all tire sizes and navigates to each tire size page. The script then finds the count of tires available for that size and records this along with the tire size and URL. This information is written to a CSV file.
+This Python script is used for web scraping tire sizes and the counts of each tire size from the Bridgestone website using the Selenium WebDriver and BeautifulSoup.
 
-**Requirements**
-Python 3
-Selenium WebDriver
-BeautifulSoup
-Google Chrome
-ChromeDriver
+The script also uses multiprocessing to increase the speed of scraping by handling different tire diameters concurrently.
 
-**Instructions:**
-1. Install the required Python packages if you haven't already:
-    **pip install selenium beautifulsoup4**
+## Setup
 
-2. Download the ChromeDriver that matches your installed Google Chrome version. Place the chromedriver binary in a location of your choosing.
+1. Ensure Python 3 is installed on your system.
 
-3. Update the path to the chromedriver binary in the script:
-    **driver_service = Service('/usr/local/bin/chromedriver')**  # replace with your path
+2. Install the required Python packages by running the following commands:
+```bash
+pip install beautifulsoup4
+pip install selenium
 
-4. Run the bridgestone.py
+# Web Scraping Bridgestone Tire Sizes
 
-5. After the script has finished, you will find an output.csv file in the same directory as the script. This file contains the tire size, tire count, and URL for each tire size for each tire diameter.
+This Python script is used for web scraping tire sizes and the counts of each tire size from the Bridgestone website using the Selenium WebDriver and BeautifulSoup.
 
-**Note**
-The script uses headless mode for Chrome, meaning it runs the browser in the background without a user interface. If you wish to disable this, simply comment out or remove the line:
+The script also uses multiprocessing to increase the speed of scraping by handling different tire diameters concurrently.
 
-**chrome_options.add_argument("--headless")**
+## Setup
 
+1. Ensure Python 3 is installed on your system.
 
+2. Install the required Python packages by running the following commands:
+```bash
+pip install beautifulsoup4
+pip install selenium
+Download the appropriate ChromeDriver from [this link](https://sites.google.com/a/chromium.org/chromedriver/downloads) and specify its path in the script.
+Running the script
+To run the script, use the following command in your terminal:
+python bridgestone.py
+
+Replace "script_name.py" with the name of your Python file.
+
+Output
+The script will create an output.csv file containing the tire sizes, counts, and corresponding URLs for each size.
+
+The last row in the CSV file will contain the total time taken for the script to run, in the format "X minutes Y seconds".
+
+Note
+The script uses the Chrome browser in headless mode for web scraping. Ensure that the Chrome browser is installed on your system and the path to the Chrome binary in the script matches the installation path on your system.
+
+This README.md will provide all the information needed to run your script properly.
