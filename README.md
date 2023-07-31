@@ -9,7 +9,7 @@ The script also uses multiprocessing to increase the speed of scraping by handli
 1. Ensure Python 3 is installed on your system.
 
 2. Install the required Python packages by running the following commands:
-```bash
+
 pip install beautifulsoup4
 pip install selenium
 
@@ -24,7 +24,7 @@ The script also uses multiprocessing to increase the speed of scraping by handli
 1. Ensure Python 3 is installed on your system.
 
 2. Install the required Python packages by running the following commands:
-```bash
+
 pip install beautifulsoup4
 pip install selenium
 Download the appropriate ChromeDriver from [this link](https://sites.google.com/a/chromium.org/chromedriver/downloads) and specify its path in the script.
