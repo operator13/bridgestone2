@@ -62,6 +62,8 @@ def main():
 
         # Use map to apply the function to all diameters, collect the results
         results = pool.map(get_tire_counts, diameters)
+        
+        # print(results)
 
         # Iterate through each diameter
         for tire_counts in results:
