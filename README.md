@@ -13,8 +13,6 @@ The script also uses multiprocessing to increase the speed of scraping by handli
 pip install beautifulsoup4
 pip install selenium
 
-# Web Scraping Bridgestone Tire Sizes
-
 This Python script is used for web scraping tire sizes and the counts of each tire size from the Bridgestone website using the Selenium WebDriver and BeautifulSoup.
 
 The script also uses multiprocessing to increase the speed of scraping by handling different tire diameters concurrently.
