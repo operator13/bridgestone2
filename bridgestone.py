@@ -80,7 +80,7 @@ def main():
         minutes, seconds = divmod(total_time, 60)
 
         # Add total time to CSV
-        writer.writerow(["Total time taken", f"{int(minutes)} minutes {int(seconds)} seconds"])
+        writer.writerow(["Total time taken " f"{int(minutes)} minutes {int(seconds)} seconds"])
 
     print(f'The script ran for {int(minutes)} minutes {int(seconds)} seconds')
 

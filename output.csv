@@ -16,7 +16,7 @@ Tire Size,Tire Count,URL
 265/40R21,3,https://www.bridgestonetire.com/catalog/size/265-40r21/
 255/40R21,1,https://www.bridgestonetire.com/catalog/size/255-40r21/
 245/35R21,1,https://www.bridgestonetire.com/catalog/size/245-35r21/
-345/30R21,0,https://www.bridgestonetire.com/catalog/size/345-30r21/
+345/30R21,1,https://www.bridgestonetire.com/catalog/size/345-30r21/
 325/30R21,1,https://www.bridgestonetire.com/catalog/size/325-30r21/
 315/35R21,1,https://www.bridgestonetire.com/catalog/size/315-35r21/
 295/35R21,1,https://www.bridgestonetire.com/catalog/size/295-35r21/
@@ -32,7 +32,7 @@ Tire Size,Tire Count,URL
 275/60R20,4,https://www.bridgestonetire.com/catalog/size/275-60r20/
 275/65R20,3,https://www.bridgestonetire.com/catalog/size/275-65r20/
 265/30R20,1,https://www.bridgestonetire.com/catalog/size/265-30r20/
-265/35R20,2,https://www.bridgestonetire.com/catalog/size/265-35r20/
+265/35R20,3,https://www.bridgestonetire.com/catalog/size/265-35r20/
 265/40R20,1,https://www.bridgestonetire.com/catalog/size/265-40r20/
 265/45R20,1,https://www.bridgestonetire.com/catalog/size/265-45r20/
 265/50R20,4,https://www.bridgestonetire.com/catalog/size/265-50r20/
@@ -57,7 +57,7 @@ Tire Size,Tire Count,URL
 335/25R20,1,https://www.bridgestonetire.com/catalog/size/335-25r20/
 215/45R20,1,https://www.bridgestonetire.com/catalog/size/215-45r20/
 315/35R20,2,https://www.bridgestonetire.com/catalog/size/315-35r20/
-305/30R20,4,https://www.bridgestonetire.com/catalog/size/305-30r20/
+305/30R20,5,https://www.bridgestonetire.com/catalog/size/305-30r20/
 305/35R20,1,https://www.bridgestonetire.com/catalog/size/305-35r20/
 305/40R20,1,https://www.bridgestonetire.com/catalog/size/305-40r20/
 305/55R20,1,https://www.bridgestonetire.com/catalog/size/305-55r20/
@@ -239,4 +239,4 @@ Tire Size,Tire Count,URL
 175/55R15,1,https://www.bridgestonetire.com/catalog/size/175-55r15/
 175/65R15,3,https://www.bridgestonetire.com/catalog/size/175-65r15/
 185/65R14,1,https://www.bridgestonetire.com/catalog/size/185-65r14/
-Total time taken,3 minutes 16 seconds
+Total time taken 2 minutes 58 seconds
